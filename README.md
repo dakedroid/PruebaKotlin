@@ -1,6 +1,6 @@
 # PruebaKotlin
 
-/**
+
  *      1. Mostrar publicaciones de usuarios - UI/UX - Nuevo tipo (Videos, Gift, VIVO)
  *      2. Reportar - Restricciones o Cumplimiento - Abogados derecho Mercantil
  *      3. Bloquear - Restricciones o Cumplimiento - Abogados derecho Mercantil
@@ -10,4 +10,4 @@
  *      7. Enviar Solicitud - No deberia cambiar ...
  *      8. Quitar amigo - No deberia cambiar ...
  *      9. Desbloquear un amigo - Restricciones o Cumplimiento - Abogados derecho Mercantil
- * **/
+ 
