@@ -1,4 +1,4 @@
-package mx.tecnm.voaxaca.pruebakotlin.Views
+package mx.tecnm.voaxaca.pruebakotlin.SingleResponsability.Views
 
 import mx.tecnm.voaxaca.pruebakotlin.PerfilUsuario
 

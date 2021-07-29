@@ -1,4 +1,4 @@
-package mx.tecnm.voaxaca.pruebakotlin.Juego
+package mx.tecnm.voaxaca.pruebakotlin.OpenClose
 
 
 class Monster: SubidorEnergia(){

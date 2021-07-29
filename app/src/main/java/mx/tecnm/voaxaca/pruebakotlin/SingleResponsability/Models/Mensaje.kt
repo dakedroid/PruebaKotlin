@@ -1,4 +1,4 @@
-package mx.tecnm.voaxaca.pruebakotlin.Models
+package mx.tecnm.voaxaca.pruebakotlin.SingleResponsability.Models
 
 import org.json.JSONObject
 

@@ -1,4 +1,4 @@
-package mx.tecnm.voaxaca.pruebakotlin.Juego
+package mx.tecnm.voaxaca.pruebakotlin.OpenClose
 
 abstract class SubidorEnergia {
     abstract val energiaBase: Int

@@ -1,4 +1,4 @@
-package mx.tecnm.voaxaca.pruebakotlin.Juego
+package mx.tecnm.voaxaca.pruebakotlin.OpenClose
 
 class Pastilla: SubidorEnergia(){
     override val energiaBase = 50

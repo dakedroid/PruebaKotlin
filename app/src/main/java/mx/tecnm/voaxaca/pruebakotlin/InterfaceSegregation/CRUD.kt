@@ -1,19 +1,29 @@
 package mx.tecnm.voaxaca.pruebakotlin.Liskov
 
 
-interface MCrud {
-
-    fun Add() // Crear - Create
-
-    fun Update() // Actualizar - Update
-
-    fun Delete() // Borrar - Delete
-
-    fun Get()    // Obtener - Read
+interface Crud :  CGet, CAdd, CUpdate, CDelete{
 
 }
 
-class Usuario : MCrud{
+interface CGet{
+    fun Get()    // Obtener - Read
+}
+
+interface CAdd {
+    fun Add() // Crear - Create
+}
+
+interface CUpdate {
+    fun Update() // Actualizar - Update
+}
+
+interface CDelete {
+    fun Delete() // Borrar - Delete
+}
+
+
+
+class Usuario : Crud{
 
     override fun Add() {
         //  Logica ara agregar usuario al servidor
@@ -34,23 +44,23 @@ class Usuario : MCrud{
 
 }
 
-class Carrito : MCrud {
+class CambiarDireccion : CUpdate {
+
+    override fun Update() {
+       // Actualizar ...
+    }
+
+}
+
+class Carrito : CAdd, CDelete {
 
     override fun Add() {
         // Logica agregar al crud
     }
 
-    override fun Update(){
-        throw NotImplementedError("Funcion no implementada")
-    }
 
     override fun Delete() {
        // Logica para borrar
     }
-
-    override fun Get() {
-        throw NotImplementedError("Funcion no implementada")
-    }
-
 
 }
