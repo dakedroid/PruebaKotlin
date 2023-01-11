@@ -1,4 +1,4 @@
-# PruebaKotlin
+# PRINCIPIOS SOLID
 
 
  *      1. Mostrar publicaciones de usuarios - UI/UX - Nuevo tipo (Videos, Gift, VIVO)
